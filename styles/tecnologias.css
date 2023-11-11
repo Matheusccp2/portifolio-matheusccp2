@@ -1,0 +1,30 @@
+.tecnologias h2 {
+    font-family: var(--fonte-princial);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--cor-branco);
+
+}
+
+.tecnologias h3 {
+    font-family: var(--fonte-princial);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cor-cinza);
+
+}
+
+.tecnologias {
+    text-align: center;
+}
+
+.tecnologias-texto h2 {
+    margin-bottom: 20px;
+}
+
+.tecnologias-icons {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4em 0 7em 0;
+}

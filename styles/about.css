@@ -1,0 +1,21 @@
+.container__aboutme h2 {
+    font-family: var(--fonte-princial);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--cor-branco);
+}
+
+.container__aboutme p {
+    font-family: var(--fonte-princial);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cor-branco);
+}
+
+.container__aboutme {
+    margin: 3em 10em 2em 2em;
+}
+
+.container__experiencias {
+    margin: 3em 10em 2em 2em;
+}

@@ -1,0 +1,22 @@
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2em 0 1em 0;
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cor-branco);
+    text-transform: uppercase;
+}
+
+.imagem-cabecalho,
+.imagem-cabecalho-link {
+    height: 29px;
+    margin: 3.5px;
+    text-decoration: none;
+}

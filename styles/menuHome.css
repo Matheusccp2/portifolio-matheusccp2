@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 7em 0 7em 2em;
+
+}
+
+.home-texto {
+    font-family: var(--fonte-princial);
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.home-texto-nome {
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-imagem {
+    width: 270px;
+    height: 270px;
+}

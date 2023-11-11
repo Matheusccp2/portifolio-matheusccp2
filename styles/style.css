@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Poppins:wght@400;700&display=swap');
+
+@import url(cabecalho.css);
+@import url(menuHome.css);
+@import url(tecnologias.css);
+@import url(about.css);
+
+:root {
+    --cor-principal: #0D1321;
+    --cor-secundaria: #1D2D44;
+    --cor-terciaria: #3E5C76;
+    --cor-quartenaria: #748CAB;
+    --cor-branco: #F0EBD8;
+    --cor-cinza: #666;
+
+    --fonte-princial: 'Poppins';
+    --fonte-secundaria: 'DM Sans';
+
+}
+
+body {
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    font-family: var(--fonte-princial);
+    font-size: 18px;
+    font-weight: 400;
+
+}
