@@ -1,0 +1,46 @@
+.rodape__conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 4em 3em 6em;
+}
+
+.rodape__conteudo__links a {
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-cinza-subtitulo);
+    vertical-align: middle
+}
+
+.link-email {
+    padding: 50px;
+}
+
+.divisor {
+    border-color: var(--cor-terciaria);
+    margin: 0 2em;
+}
+
+.rodape__guia {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-cinza-subtitulo);
+    margin: 4em 4em 2em 3em;
+}
+
+.rodape__guia__redirecionamento .guia__link {
+    color: var(--cor-cinza-subtitulo);
+    height: 29px;
+    margin: 0 2em 2em 3em;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.rodape__guia__by {
+    margin: 0 6em 2em 0;
+}

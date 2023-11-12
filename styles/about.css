@@ -1,21 +1,73 @@
-.container__aboutme h2 {
+.container__aboutme {
+    margin: 5em 27em 2em 8em;
+}
+
+.container__titulo {
     font-family: var(--fonte-princial);
     font-size: 24px;
     font-weight: 700;
     color: var(--cor-branco);
+    margin: 0.5em 0;
 }
 
-.container__aboutme p {
+.container__sobremim, .container__experiencias, .container__estudos    {
+    margin: 2em 0;
+}
+
+.texto-sobremim {
     font-family: var(--fonte-princial);
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-cinza-subtitulo);
+}
+
+.container__subtitulo {
+    font-family: var(--fonte-princial);
+    font-size: 18px;
     font-weight: 400;
-    color: var(--cor-branco);
+    color: var(--cor-cinza-subtitulo);
+    margin: 0.5em 0.3em;
 }
 
-.container__aboutme {
-    margin: 3em 10em 2em 2em;
+.texto-lista {
+    font-family: var(--fonte-princial);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--cor-cinza-subtitulo);
 }
 
-.container__experiencias {
-    margin: 3em 10em 2em 2em;
+.divisor-about {
+    border-color: var(--cor-terciaria);
+}
+
+.container__lista .lista-conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container__lista img, .texto-lista img {
+    width: 16px;
+    padding: 0 5px;
+}
+
+.tarefas {
+    margin: 1em 1em;
+}
+
+.lista-about {
+    list-style-type: disc;
+}
+
+.lista-conteudo-estudos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -17px;
+}
+
+.subtitulo-faculdade {
+    color: var(--cor-cinza-subtitulo);
+    font-size: 16px;
 }

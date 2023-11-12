@@ -10,12 +10,13 @@
     font-family: var(--fonte-princial);
     font-size: 18px;
     font-weight: 400;
-    color: var(--cor-cinza);
+    color: var(--cor-cinza-subtitulo);
 
 }
 
 .tecnologias {
     text-align: center;
+    margin: 10em;
 }
 
 .tecnologias-texto h2 {
